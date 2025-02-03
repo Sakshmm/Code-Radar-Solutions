@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char string;
-    scanf("%ch",&string);
-    printf("You entered: %ch/n",string);
-    }
+    char string[];
+    scanf("%s",string);
+    printf("You entered: %s",string);
+}
