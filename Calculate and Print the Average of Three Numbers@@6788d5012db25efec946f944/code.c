@@ -4,5 +4,5 @@ int main(){
     double avg;
     scanf("%d %d %d",&a,&b,&c);
     avg= (double)(a+b+c) /3;
-    printf("Average: %.2f",avg)
+    printf("Average: %.2lf",avg)
 }
