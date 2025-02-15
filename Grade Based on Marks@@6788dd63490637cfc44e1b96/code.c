@@ -2,9 +2,20 @@
 int main(){
     int a;
     scanf("%d",&a);
-    char grade;
-
-    if(a>=90{
-        printf("gradeA");
-    })
+    if(a>=90){
+        printf("A");
+    }
+    else if(a>=80 && <90){
+        printf("B");
+    }
+    else if(a>=70 && <80){
+        printf("C");
+    }
+    else if(a>=60 && <70){
+        printf("B");
+    }
+    else{
+        printf("F");
+    }
+    return 0;
 }
