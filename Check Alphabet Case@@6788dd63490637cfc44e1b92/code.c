@@ -8,7 +8,7 @@
         printf("Uppercase",ch);
     }
     else{
-        printf("Not an alphabet");
+        printf("Not an alphabet",ch);
     }
     return 0;
  }
