@@ -5,6 +5,6 @@ int main(){
     char grade;
 
     if(a>=90{
-        printf("gradeA")
+        printf("gradeA");
     })
 }
