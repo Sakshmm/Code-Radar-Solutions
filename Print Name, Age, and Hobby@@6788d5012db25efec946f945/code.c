@@ -3,10 +3,10 @@ int(){
     char str1[100];
     int a;
     char str2[100];
-    scanf("%c %d %c",&str1,&a,&str2);
-    printf("Name: %c",str1);
-    printf("Age: %d",a);
-    printf("Hobby: %c",str2);
+    scanf("%s %d %s",&str1,&a,&str2);
+    printf("Name: %s\n",str1);
+    printf("Age: %s\n",a);
+    printf("Hobby: %s",str2);
     return 0;
 }
 
