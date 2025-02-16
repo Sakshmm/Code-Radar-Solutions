@@ -1,12 +1,12 @@
 #include <stdio.h>
 int(){
-    char str[100];
+    char str1[100];
     int a;
-    char str[100];
-    scanf("%s %d %s",&str,&a,&str);
-    printf("Name: %s",str);
+    char str2[100];
+    scanf("%s %d %s",&str1,&a,&str2);
+    printf("Name: %s",str1);
     printf("Age: %d",a);
-    printf("Hobby: %s",str);
+    printf("Hobby: %s",str2);
     return 0;
 }
 
