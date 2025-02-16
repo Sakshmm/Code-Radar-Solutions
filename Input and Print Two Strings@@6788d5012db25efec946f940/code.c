@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    char string1[100],string2[100];
-    scanf("%s %s",&string1,&string2);
-    printf("You entered: %s and %s",string1,string2);
+    char str1[50],str2[50];
+    scanf("%s %s",&str1,&str2);
+    printf("you entered: Hello and World",str1,str2);
     return 0;
 }
